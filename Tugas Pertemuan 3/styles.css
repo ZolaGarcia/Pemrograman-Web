@@ -1,0 +1,64 @@
+body{
+    font-family:'Trebuchet MS';
+    background-color:seashell;
+}
+
+table,th,td{
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+}
+
+/* Tabel Atas*/
+
+table.tabel-atas{
+    width: 75%;
+    margin: 0 auto;
+}
+
+th,td{
+    border: 2px solid black;
+}
+
+tr.judul{
+    background-color:beige;
+}
+
+td.subjudul{
+    background-color:cornsilk;
+}
+
+td.data{
+    background-color: cornsilk;
+}
+
+
+td.gambaar{
+    margin: 0;
+    padding: 0;
+    background-color:cornsilk;
+}
+
+img.gambar{
+    width: 300px;
+}
+
+/* Tabel Bawah */
+
+table.tabel-bawah{
+    width: 75%;
+    margin: 0 auto;
+    background-color:ivory;
+}
+
+table.tabel-bawah,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+}
+
+th{
+    width: 300px;
+}
